@@ -2,6 +2,7 @@ import { addtions } from "./add.js"
 import { subtrack } from "./subtr.js"
 import { mutiply } from './muti.js'
 import { divion } from './divid.js'
+import { roundInt } from "./round.js"
 export var math = {
     add(baseNum,AddNum){
         add(baseNum,AddNum)
@@ -14,5 +15,8 @@ export var math = {
     },
     divid(baseNum,power){
         divion(baseNum,power)
-    }
+    },
+    round(number){
+        roundInt(number)
+    },
 }
