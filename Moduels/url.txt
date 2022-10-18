@@ -1,0 +1,3 @@
+https://www.w3schools.com/js/js_math.asp
+https://replit.com/@NeoJine/Es6-exports#main.js
+https://github.dev/SithLor/MONOREPO
