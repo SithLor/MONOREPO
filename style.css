@@ -6,3 +6,19 @@
   color: red;
   margin-top: 60px;
 }
+#test {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #ff00c8;
+  margin-top: 60px;
+}
+#opt {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #ff00c8;
+  margin-top: 60px;
+}
