@@ -1,7 +1,6 @@
 
 export var BOM = {
     GetScrX(){
-
         return window.screenX()
     },
     GetScrY(){
@@ -10,5 +9,4 @@ export var BOM = {
     GetPageUrl(){
         return document.URL
     }
-
 }

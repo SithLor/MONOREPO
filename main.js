@@ -1,10 +1,10 @@
-import { math } from './Moduels/math/math'
-import { log } from './Moduels/log/logger'
-import './style.css'
-
-document.querySelector('#app').innerHTML = `
-  <h1 id="r">Hello, world!</h1>
-  <button type="button" onclick="logger.log("duck")">Click Me!</button>
-`
-
-logger.log("FCK")
+import { math } from './Moduels/math/math.js'
+import { logger }  from './Moduels/log/log.js'
+logger.log("testings")
+logger.error("error")
+logger.warn("warn")
+logger.log(math.add(10,10))
+logger.log(math.muti(10,10))
+logger.log(math.sub(10,5))
+logger.log(math.divid(100,5))
+console.log(math.add(10,10))

@@ -1,8 +1,8 @@
 import { log } from "./logger.js";
 import { warn } from "./warn.js";
-import { lerror } from "./error.js";
+import { error } from "./error.js";
 import { clear } from "./clear.js";
-export var logger = {
+export let logger = {
     log(io){
         log(io)
     },

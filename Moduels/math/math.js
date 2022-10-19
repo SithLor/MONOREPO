@@ -5,17 +5,17 @@ import { divion } from './divid.js'
 import { roundInt } from "./round.js"
 import { returnPI } from "./pi.js"
 export var math = {
-    add(baseNum,AddNum){
-        addtions(baseNum,AddNum)
+    add(baseNum1,AddNum1){
+        addtions(baseNum1,AddNum1)
     },
-    sub(baseNum,SubNum){
-        subtrack(baseNum,SubNum)
+    sub(baseNum2,SubNum2){
+        subtrack(baseNum2,SubNum2)
     },
-    muti(baseNum,power){
-        mutiply(baseNum,power)
+    muti(baseNum3,power3){
+        mutiply(baseNum3,power3)
     },
-    divid(baseNum,power){
-        divion(baseNum,power)
+    divid(baseNum4,power4){
+        divion(baseNum4,power4)
     },
     round(number){
         roundInt(number)
