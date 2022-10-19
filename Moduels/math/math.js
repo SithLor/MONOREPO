@@ -20,4 +20,7 @@ export var math = {
     round(number){
         roundInt(number)
     },
+    pi(){
+        returnPi()
+    }
 }
