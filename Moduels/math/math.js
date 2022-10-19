@@ -21,6 +21,6 @@ export var math = {
         roundInt(number)
     },
     pi(){
-        returnPi()
+        retunrPi()
     }
 }
