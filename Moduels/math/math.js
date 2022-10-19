@@ -3,7 +3,7 @@ import { subtrack } from "./subtr.js"
 import { mutiply } from './muti.js'
 import { divion } from './divid.js'
 import { roundInt } from "./round.js"
-//import { retunrPi } from "./pi.js"
+import { returnPI } from "./pi.js"
 export var math = {
     add(baseNum,AddNum){
         addtions(baseNum,AddNum)
@@ -19,5 +19,8 @@ export var math = {
     },
     round(number){
         roundInt(number)
+    },
+    GetValTimePi(inp){
+        return returnPI * inp
     }
 }
