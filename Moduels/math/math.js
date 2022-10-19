@@ -3,7 +3,7 @@ import { subtrack } from "./subtr.js"
 import { mutiply } from './muti.js'
 import { divion } from './divid.js'
 import { roundInt } from "./round.js"
-import { returnPi } from "./pi.js"
+import { retunrPi } from "./pi.js"
 export var math = {
     add(baseNum,AddNum){
         addtions(baseNum,AddNum)
