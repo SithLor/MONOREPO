@@ -3,15 +3,16 @@ import { subtrack } from "./subtr.js"
 import { mutiply } from './muti.js'
 import { divion } from './divid.js'
 import { roundInt } from "./round.js"
+import { returnPi } from "./pi.js"
 export var math = {
     add(baseNum,AddNum){
-        add(baseNum,AddNum)
+        addtions(baseNum,AddNum)
     },
     sub(baseNum,SubNum){
-        subtr(baseNum,SubNum)
+        subtrack(baseNum,SubNum)
     },
     muti(baseNum,power){
-        muti(baseNum,power)
+        mutiply(baseNum,power)
     },
     divid(baseNum,power){
         divion(baseNum,power)
