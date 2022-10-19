@@ -1,3 +1,3 @@
 export function retunrPI(){
-    return Math.PI()
+    return Math.PI
 }
