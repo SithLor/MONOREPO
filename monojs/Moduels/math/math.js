@@ -6,19 +6,19 @@ import { roundInt } from "./round.js"
 import { returnPI } from "./pi.js"
 export var math = {
     add(baseNum1,AddNum1){
-        addtions(baseNum1,AddNum1)
+        return addtions(baseNum1,AddNum1)
     },
     sub(baseNum2,SubNum2){
-        subtrack(baseNum2,SubNum2)
+        return subtrack(baseNum2,SubNum2)
     },
     muti(baseNum3,power3){
-        mutiply(baseNum3,power3)
+        return mutiply(baseNum3,power3)
     },
     divid(baseNum4,power4){
-        divion(baseNum4,power4)
+        return divion(baseNum4,power4)
     },
     round(number){
-        roundInt(number)
+        return roundInt(number)
     },
     GetValTimePi(inp){
         return returnPI * inp
